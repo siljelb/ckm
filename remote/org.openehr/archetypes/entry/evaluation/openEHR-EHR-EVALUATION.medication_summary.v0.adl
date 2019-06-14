@@ -68,7 +68,7 @@ Not to be used for documenting the administration or consumption of a medication
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"e8ef3531164eb09a81ae2d940fa28302">
+		["MD5-CAM-1.0.1"] = <"3adf1e0c240d62a93cd8abee97f3a061">
 		["build_uid"] = <"f22d262d-9e16-49a4-a64f-ed3844198edf">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -128,6 +128,11 @@ definition
 								}
 							}
 							ELEMENT[at0023] occurrences matches {0..1} matches {    -- Route
+								value matches {
+									DV_TEXT matches {*}
+								}
+							}
+							ELEMENT[at0024] occurrences matches {0..1} matches {    -- Direction description
 								value matches {
 									DV_TEXT matches {*}
 								}
@@ -289,6 +294,10 @@ ontology
 					text = <"Route">
 					description = <"*">
 				>
+				["at0024"] = <
+					text = <"Direction description">
+					description = <"*">
+				>
 			>
 		>
 		["nb"] = <
@@ -388,6 +397,10 @@ ontology
 					text = <"*Route (en)">
 					description = <"*">
 				>
+				["at0024"] = <
+					text = <"*Direction description (en)">
+					description = <"*">
+				>
 			>
 		>
 		["pt-br"] = <
@@ -485,6 +498,10 @@ ontology
 				>
 				["at0023"] = <
 					text = <"*Route (en)">
+					description = <"*">
+				>
+				["at0024"] = <
+					text = <"*Direction description (en)">
 					description = <"*">
 				>
 			>
