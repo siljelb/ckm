@@ -75,7 +75,7 @@ Not to be used to record the exclusion of adverse reactions, medication use, pro
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"c919be4c36962b2196287d7a21c37068">
+		["MD5-CAM-1.0.1"] = <"42064322e2125b0e62ff0b9e5b0f9dd6">
 		["build_uid"] = <"e0211ce5-890e-4d29-b298-526f0e1cfda3">
 		["revision"] = <"1.0.0">
 	>
@@ -129,7 +129,7 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Absence statement">
-					description = <"Positive statement that no information is available.">
+					description = <"Positive statement that no information is available. Test.">
 					comment = <"For example: \"No information available about adverse reactions\"; No information available about problems or diagnoses\"; \"No information available about previous procedures performed\"; or \"No information available about medications used\".">
 				>
 				["at0003"] = <
@@ -164,7 +164,7 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Fraværsutsagn">
-					description = <"Bekreftende utsagn om at det ikke finnes tilgjengelig informasjon.">
+					description = <"*Positive statement that no information is available. Test. (en)">
 					comment = <"For eksempel \" det finnes ingen tilgjengelig informasjon om overfølsomhetsreaksjoner\", \"ingen tilgjengelig informasjon om problem/diagnose\", \"ingen tilgjengelig informasjon om tidligere utførte prosedyrer\" eller \"ingen tilgjengelig informasjon om medisinbruk\".">
 				>
 				["at0003"] = <
