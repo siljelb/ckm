@@ -22,7 +22,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "b1833a0ec8f6cb6ad7e978bfe153762b",
+      "MD5-CAM-1.0.1" : "fa107970d958a180c876666a69ee0b78",
       "PARENT:MD5-CAM-1.0.1" : "6562F732112B8B3F94790E178F4243A5"
     },
     "details" : {
@@ -129,21 +129,21 @@
         "referenceType" : "archetypeOverlay"
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "ADMIN_ENTRY",
+        "occurrences" : "0..*",
+        "nodeId" : "at0.10",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-ADMIN_ENTRY.ovl-translation_requirements-002.v1",
+        "referenceType" : "archetypeOverlay"
+      }, {
+        "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "EVALUATION",
         "occurrences" : "0..*",
         "nodeId" : "at0.7",
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "openEHR-EHR-EVALUATION.ovl-communication_capability-001.v1",
-        "referenceType" : "archetypeOverlay"
-      }, {
-        "@type" : "C_ARCHETYPE_ROOT",
-        "rmTypeName" : "ADMIN_ENTRY",
-        "occurrences" : "0..*",
-        "nodeId" : "at0.9",
-        "attributes" : [ ],
-        "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-ADMIN_ENTRY.ovl-translation_requirements-002.v1",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
@@ -257,7 +257,7 @@
                       "@type" : "C_BOOLEAN",
                       "rmTypeName" : "BOOLEAN",
                       "occurrences" : "1..1",
-                      "constraint" : [ ]
+                      "constraint" : [ false ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -309,7 +309,7 @@
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
-            "text" : "Kan du norsk?",
+            "text" : "Kan du snakke og forstå norsk?",
             "description" : "Om individet trenger tolk.",
             "comment" : "For eksempel kan et engelsktalende individ i Quebec trenge tolk dersom administrasjonsspråket er fransk, og dermed konsultasjonen gjennomføres på fransk, men ikke dersom administrasjonsspråket er engelsk."
           }
@@ -1472,7 +1472,7 @@
                       "@type" : "C_BOOLEAN",
                       "rmTypeName" : "BOOLEAN",
                       "occurrences" : "1..1",
-                      "constraint" : [ ]
+                      "constraint" : [ false ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -1531,7 +1531,7 @@
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
-            "text" : "Kan du engelsk?",
+            "text" : "Kan du snakke og forstå engelsk?",
             "description" : "Om individet trenger tolk.",
             "comment" : "For eksempel kan et engelsktalende individ i Quebec trenge tolk dersom administrasjonsspråket er fransk, og dermed konsultasjonen gjennomføres på fransk, men ikke dersom administrasjonsspråket er engelsk."
           }
