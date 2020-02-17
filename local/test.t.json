@@ -22,7 +22,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "becf74ca9224d6f72ad720a706c2d0cb",
+      "MD5-CAM-1.0.1" : "cfd48311a1e9a1c37e64998c736eaf41",
       "PARENT:MD5-CAM-1.0.1" : "6562F732112B8B3F94790E178F4243A5"
     },
     "details" : {
@@ -46,6 +46,7 @@
           },
           "codeString" : "nb"
         },
+        "purpose" : "Test av struktur for å angi behov for tolk og hvilke språk individet kan.",
         "keywords" : [ ],
         "originalResourceUri" : { },
         "otherDetails" : { }
@@ -193,7 +194,7 @@
   "rmName" : "openehr",
   "rmRelease" : "1.0.3",
   "generated" : true,
-  "templateId" : "test",
+  "templateId" : "Test tolkebehov",
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
